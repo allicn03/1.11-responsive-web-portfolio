@@ -347,3 +347,192 @@ code for lesson 1.11 project responsive web portfolio
     </footer>
   </body>
 </html>
+
+<!--css file before review changes-->
+
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+      background-color: #fffeea;
+      color: #34495e;
+      position: relative;
+}
+
+/*Navigation bar styles*/
+
+.navbar, .navbar-default {
+	background-color: #000;
+	margin-bottom: 0px;
+  border: 0px solid transparent;
+  border-radius: 0;
+}
+
+.navbar a:hover {
+	color: #ff0;
+	text-decoration: none;
+}
+
+
+/*Carousel Styles*/
+
+.carousel {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.item>img {
+	opacity: 0.4;
+}
+#typewriter {
+	font-size: 3em;
+	color: #337ab7;
+	padding-bottom: 175px;
+}
+#desk {
+	font-size: 3em;
+	color: #337ab7;
+	padding-bottom: 175px;
+}
+#computer {
+	font-size: 3em;
+	color: #337ab7;
+	padding-bottom: 175px;
+}
+.col-md-4 {
+	margin-top:-200px;
+}
+.glyphicon:hover {
+	color: white;
+}
+
+/*About styles*/
+#about {
+	margin-top: -100px;
+}
+.pittsburgh {
+	padding-top: 75px;
+}
+.intro {
+	padding-top: 50px;
+}
+.header h1 {
+	text-align: center;
+}
+.main-text {
+	clear: both;
+	padding-top: 75px;
+	padding-left: 30px;
+	text-align: center;
+}
+#faq {
+	padding-top: 100px; 
+	padding-bottom: 250px;
+}
+
+/*Typography*/
+
+h1,
+h2,
+h3,
+p,
+li {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+.intro p {
+      font-family: Futura, Helvetica, Arial, sans-serif;
+      font-size: 1em;
+      font-weight: 100;
+      display: inline-block;
+      float: right;
+      -webkit-margin-before: 0;
+}
+.skills {
+	margin-top: 75px;
+	padding-bottom: 35px;
+	width: 100%;
+	background-color: #337ab7; /*#5ad4c2*/
+	color: #fff;
+	float: right;
+}
+.skills h2 {
+	text-align: center;
+	text-transform: uppercase;
+}
+#skill-list {
+	list-style-type: circle;
+	list-style-position: inside;
+	text-align: left;
+	margin-left: 150px;
+}
+/* Contact Styles */
+.contact {
+	padding-top: 400px;
+}
+/*faq styles*/
+.panel-body {
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
+	font-weight: 80% 
+}
+.panel-heading {
+	background-color: grey;
+}
+.panel-title {
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
+	font-weight: 100%
+	font-size: 2em;
+}
+.row {
+	padding-top: 100px;
+}
+.container {
+	width: 100%;
+} 
+.container .col-md-4 {
+	text-align: center;
+	padding-top: 100px;
+}
+.col-md-4 p {
+	text-align: left;
+}
+.anchor {
+	padding-top: 100px;
+}
+#contactsct{
+    background-image: url("../img/girlatlake.jpg");
+/*Add a background image*/
+    background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover;
+/*Have the background cover the entire div section*/
+    color: white;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+    padding:100px;
+    padding-top: 0px;
+    height: 1080px;
+}
+.twitter {
+	float: right;
+}
+iframe {
+	margin: auto;
+}
+.form-control {
+	width: 50%;
+}
+.learn-more {
+	text-align: left;
+	float: left;
+}
+.modal-button {
+	float: right;
+	padding: 15px;
+}
+#cv {
+	height: 500px;
+	width: 100%;
+	padding: 10px;
+}
+
